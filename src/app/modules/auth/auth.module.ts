@@ -6,6 +6,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
 import { LandingSharedModule } from 'src/app/shared/landing/landing.module';
 import { AngularMaterialModule } from 'src/app/core/components/angular-material.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -18,7 +19,10 @@ import { AngularMaterialModule } from 'src/app/core/components/angular-material.
     CommonModule,
     AuthRoutingModule,
     LandingSharedModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    FlexLayoutModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports:[
     RegisterComponent,
